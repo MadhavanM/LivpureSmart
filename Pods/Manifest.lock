@@ -1,0 +1,16 @@
+PODS:
+  - PolioPager (2.5)
+
+DEPENDENCIES:
+  - PolioPager
+
+SPEC REPOS:
+  trunk:
+    - PolioPager
+
+SPEC CHECKSUMS:
+  PolioPager: ccb4e382fef0c3c0ee52bdec3d9e9794eafa510a
+
+PODFILE CHECKSUM: ecd8af7b084e6c2db34e57b9a1ab6a29d65baba3
+
+COCOAPODS: 1.8.4

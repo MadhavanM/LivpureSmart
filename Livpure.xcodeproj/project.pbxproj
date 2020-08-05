@@ -3,19 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E4C176C0335F32E4978BD44 /* Pods_Livpure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345A93C918233144524C4B6A /* Pods_Livpure.framework */; };
 		C101E4F924D9378B00212BF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C101E4F824D9378B00212BF7 /* AppDelegate.swift */; };
 		C101E4FB24D9378B00212BF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C101E4FA24D9378B00212BF7 /* SceneDelegate.swift */; };
 		C101E4FD24D9378B00212BF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C101E4FC24D9378B00212BF7 /* ViewController.swift */; };
 		C101E50024D9378B00212BF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C101E4FE24D9378B00212BF7 /* Main.storyboard */; };
 		C101E50224D9378F00212BF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C101E50124D9378F00212BF7 /* Assets.xcassets */; };
 		C101E50524D9378F00212BF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C101E50324D9378F00212BF7 /* LaunchScreen.storyboard */; };
+		C101E51024D938A900212BF7 /* SilverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C101E50F24D938A900212BF7 /* SilverViewController.swift */; };
+		C101E51224D938BA00212BF7 /* GoldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C101E51124D938BA00212BF7 /* GoldViewController.swift */; };
+		C101E51424D938E000212BF7 /* PlatinumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C101E51324D938E000212BF7 /* PlatinumViewController.swift */; };
+		C101E51624D9390E00212BF7 /* TitaniumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C101E51524D9390E00212BF7 /* TitaniumViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		345A93C918233144524C4B6A /* Pods_Livpure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Livpure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		450AA179363CB145730430EA /* Pods-Livpure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Livpure.release.xcconfig"; path = "Target Support Files/Pods-Livpure/Pods-Livpure.release.xcconfig"; sourceTree = "<group>"; };
+		48077BED1C9AEE1A51845C22 /* Pods-Livpure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Livpure.debug.xcconfig"; path = "Target Support Files/Pods-Livpure/Pods-Livpure.debug.xcconfig"; sourceTree = "<group>"; };
 		C101E4F524D9378B00212BF7 /* Livpure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Livpure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C101E4F824D9378B00212BF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C101E4FA24D9378B00212BF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		C101E50124D9378F00212BF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C101E50424D9378F00212BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C101E50624D9378F00212BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C101E50F24D938A900212BF7 /* SilverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverViewController.swift; sourceTree = "<group>"; };
+		C101E51124D938BA00212BF7 /* GoldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldViewController.swift; sourceTree = "<group>"; };
+		C101E51324D938E000212BF7 /* PlatinumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatinumViewController.swift; sourceTree = "<group>"; };
+		C101E51524D9390E00212BF7 /* TitaniumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitaniumViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4C176C0335F32E4978BD44 /* Pods_Livpure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16B5DFB2202A4EE805A5EAC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48077BED1C9AEE1A51845C22 /* Pods-Livpure.debug.xcconfig */,
+				450AA179363CB145730430EA /* Pods-Livpure.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		23CEEE009356FA25AF762B04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				345A93C918233144524C4B6A /* Pods_Livpure.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C101E4EC24D9378B00212BF7 = {
 			isa = PBXGroup;
 			children = (
 				C101E4F724D9378B00212BF7 /* Livpure */,
 				C101E4F624D9378B00212BF7 /* Products */,
+				16B5DFB2202A4EE805A5EAC4 /* Pods */,
+				23CEEE009356FA25AF762B04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,27 @@
 		C101E4F724D9378B00212BF7 /* Livpure */ = {
 			isa = PBXGroup;
 			children = (
+				C101E50C24D9382A00212BF7 /* Controller */,
 				C101E4F824D9378B00212BF7 /* AppDelegate.swift */,
 				C101E4FA24D9378B00212BF7 /* SceneDelegate.swift */,
-				C101E4FC24D9378B00212BF7 /* ViewController.swift */,
 				C101E4FE24D9378B00212BF7 /* Main.storyboard */,
 				C101E50124D9378F00212BF7 /* Assets.xcassets */,
 				C101E50324D9378F00212BF7 /* LaunchScreen.storyboard */,
 				C101E50624D9378F00212BF7 /* Info.plist */,
 			);
 			path = Livpure;
+			sourceTree = "<group>";
+		};
+		C101E50C24D9382A00212BF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C101E4FC24D9378B00212BF7 /* ViewController.swift */,
+				C101E50F24D938A900212BF7 /* SilverViewController.swift */,
+				C101E51124D938BA00212BF7 /* GoldViewController.swift */,
+				C101E51324D938E000212BF7 /* PlatinumViewController.swift */,
+				C101E51524D9390E00212BF7 /* TitaniumViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C101E50924D9378F00212BF7 /* Build configuration list for PBXNativeTarget "Livpure" */;
 			buildPhases = (
+				DCA0A28F9E4DEB1FED9FC23C /* [CP] Check Pods Manifest.lock */,
 				C101E4F124D9378B00212BF7 /* Sources */,
 				C101E4F224D9378B00212BF7 /* Frameworks */,
 				C101E4F324D9378B00212BF7 /* Resources */,
+				061BCDCE925E2A8549004D96 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +179,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		061BCDCE925E2A8549004D96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Livpure/Pods-Livpure-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Livpure/Pods-Livpure-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Livpure/Pods-Livpure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA0A28F9E4DEB1FED9FC23C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Livpure-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C101E4F124D9378B00212BF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C101E51424D938E000212BF7 /* PlatinumViewController.swift in Sources */,
+				C101E51624D9390E00212BF7 /* TitaniumViewController.swift in Sources */,
+				C101E51224D938BA00212BF7 /* GoldViewController.swift in Sources */,
 				C101E4FD24D9378B00212BF7 /* ViewController.swift in Sources */,
+				C101E51024D938A900212BF7 /* SilverViewController.swift in Sources */,
 				C101E4F924D9378B00212BF7 /* AppDelegate.swift in Sources */,
 				C101E4FB24D9378B00212BF7 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +374,7 @@
 		};
 		C101E50A24D9378F00212BF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48077BED1C9AEE1A51845C22 /* Pods-Livpure.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +393,7 @@
 		};
 		C101E50B24D9378F00212BF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 450AA179363CB145730430EA /* Pods-Livpure.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
